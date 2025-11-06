@@ -1,0 +1,32 @@
+from datetime import datetime
+DISCOUNT_RATE = .1
+TAX_RATE = .06
+today = datetime.now()
+dow = today.weekday()
+subtotal = 0
+
+quantity = 1
+while quantity != 0:
+    
+    quantity = int(input("Enter the quantity: "))
+    if quantity != 0:
+        price = float(input("Enter the price: "))
+        subtotal += quantity * price
+
+print(f"Total order: {subtotal:.2f}")
+
+discount = 0
+if dow== 1 or dow==2:
+    if subtotal > 50:
+        discount = subtotal * DISCOUNT_RATE
+        print(f"Discount: ${discount:.2f}")
+    else:
+        short = 50 - subtotal
+        print(f"Add ${short:.2f} to your order to qualify for a 10% discount!")
+
+subtotal -= discount
+tax = subtotal * TAX_RATE
+total = subtotal + tax
+
+print(f"Tax: ${tax:.2f}")
+print(f"Total Due: ${total:.2f}")
