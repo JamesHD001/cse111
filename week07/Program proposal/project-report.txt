@@ -1,0 +1,29 @@
+Student Project Report
+
+Do the following:
+
+1. In the table below, list the dates, amount of time spent, and
+description of the work that you did on your project.
+
+            Time Spent
+   Date       (hours)   Description of Work
+----------  ----------  ---------------------------------------------------
+2025-01-11      1.5     Chose project idea, wrote proposal, outlined functions
+2025-01-12      2.0     Wrote core functions: add_student, mark_attendance,
+                        calculate_attendance_percentage
+2025-01-12      1.5     Created initial attendance system structure with menu
+2025-01-13      2.0     Wrote and tested pytest test functions for all core
+                        functions; fixed import issues
+2025-01-14      2.0     Added saving and loading attendance to CSV files,
+                        implemented report generation
+2025-01-14      1.0     Debugged menu loop, fixed logical errors, improved input handling
+2025-01-15      1.0     Added optional enhancements: student search feature and
+                        improved report formatting
+2025-01-15      1.5     Final debugging, cleanup, organizing project for submission
+
+Total Time: 12.5 hours
+
+
+2. In Canvas, submit this completed text file, your Python program, your
+Python test file, and any project data files such as .txt and .csv files
+and link to video walkthrough if needed.

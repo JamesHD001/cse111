@@ -1,0 +1,69 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+
+    Free Attendance Registration System
+
+2. What real-world problem will your program address or help to solve?
+    
+    This program will help teachers, group leaders, churches, clubs, 
+    and small organizations to easily record, store, 
+    and manage attendance digitally instead of using paper.
+    It will reduce errors, save time, and allow users to 
+    track attendance history and performance more efficiently.
+
+3. What will you learn from developing this program?
+
+    From developing this program, I will learn how to organize a large
+    Python program using multiple functions, handle files for saving and
+    loading data, apply testing using pytest, and design reusable and
+    testable functions. I will also improve my problem-solving skills
+    and gain experience building a real-world application.
+
+4. What Python modules will your program use?
+
+    csv – for saving and reading attendance records
+    datetime – for recording attendance dates and times
+    pytest – for testing program functions
+    os – for file handling and system operations
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+5. List the names of functions you will need?
+
+    add_student(student_list, name)
+    mark_attendance(attendance_dict, student_name, status)
+    calculate_attendance_percentage(records)
+    save_attendance_to_file(filename, data)
+    load_attendance_from_file(filename)
+    show_menu()
+    get_user_choice()
+    register_new_student()
+    take_attendance()
+    view_attendance_report()
+    main()
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+6. List the names of the test functions you will write.
+    test_add_student()
+    test_mark_attendance()
+    test_calculate_attendance_percentage()
